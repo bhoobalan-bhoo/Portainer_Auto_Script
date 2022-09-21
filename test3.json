@@ -3,7 +3,8 @@
     "version": "2",
     "templates":  [
       {
-        "type": 1,
+
+    "type": 1,
     "title" : "acmesolver",
   "name": "acmesolver.bit.lan",
   "platform": "linux",
@@ -16,6 +17,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -49,6 +51,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "argo-workflow-controller",
   "name": "argo-workflow-controller.bit.lan",
   "platform": "linux",
@@ -61,6 +64,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "zookeeper",
   "name": "zookeeper.bit.lan",
   "platform": "linux",
@@ -93,6 +97,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps-apis",
   "name": "kubeapps-apis.bit.lan",
   "platform": "linux",
@@ -105,6 +110,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps-apprepository-controller",
   "name": "kubeapps-apprepository-controller.bit.lan",
   "platform": "linux",
@@ -117,6 +123,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps-asset-syncer",
   "name": "kubeapps-asset-syncer.bit.lan",
   "platform": "linux",
@@ -129,6 +136,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps",
   "name": "kubeapps.bit.lan",
   "platform": "linux",
@@ -142,6 +150,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps-kubeops",
   "name": "kubeapps-kubeops.bit.lan",
   "platform": "linux",
@@ -154,6 +163,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubeapps-pinniped-proxy",
   "name": "kubeapps-pinniped-proxy.bit.lan",
   "platform": "linux",
@@ -166,6 +176,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubectl",
   "name": "kubectl.bit.lan",
   "platform": "linux",
@@ -178,6 +189,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kube-rbac-proxy",
   "name": "kube-rbac-proxy.bit.lan",
   "platform": "linux",
@@ -190,6 +202,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kubernetes-event-exporter",
   "name": "kubernetes-event-exporter.bit.lan",
   "platform": "linux",
@@ -202,6 +215,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "argo-workflow-exec",
   "name": "argo-workflow-exec.bit.lan",
   "platform": "linux",
@@ -214,6 +228,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kube-state-metrics",
   "name": "kube-state-metrics.bit.lan",
   "platform": "linux",
@@ -227,6 +242,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -260,6 +276,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "logstash",
   "name": "logstash.bit.lan",
   "platform": "linux",
@@ -293,6 +310,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -326,6 +344,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -359,6 +378,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb-galera",
   "name": "mariadb-galera.bit.lan",
   "platform": "linux",
@@ -392,6 +412,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -425,6 +446,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -458,6 +480,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "memcached",
   "name": "memcached.bit.lan",
   "platform": "linux",
@@ -471,6 +494,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "memcached-exporter",
   "name": "memcached-exporter.bit.lan",
   "platform": "linux",
@@ -484,6 +508,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "aspnet-core",
   "name": "aspnet-core.bit.lan",
   "platform": "linux",
@@ -516,6 +541,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "metallb",
   "name": "metallb.bit.lan",
   "platform": "linux",
@@ -528,6 +554,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "metallb-speaker",
   "name": "metallb-speaker.bit.lan",
   "platform": "linux",
@@ -540,6 +567,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "metrics-server",
   "name": "metrics-server.bit.lan",
   "platform": "linux",
@@ -553,6 +581,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "minio",
   "name": "minio.bit.lan",
   "platform": "linux",
@@ -586,6 +615,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "minio-client",
   "name": "minio-client.bit.lan",
   "platform": "linux",
@@ -598,6 +628,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb",
   "name": "mongodb.bit.lan",
   "platform": "linux",
@@ -630,6 +661,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb-exporter",
   "name": "mongodb-exporter.bit.lan",
   "platform": "linux",
@@ -643,6 +675,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb-sharded",
   "name": "mongodb-sharded.bit.lan",
   "platform": "linux",
@@ -675,6 +708,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -708,6 +742,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mxnet",
   "name": "mxnet.bit.lan",
   "platform": "linux",
@@ -740,6 +775,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "aws-cli",
   "name": "aws-cli.bit.lan",
   "platform": "linux",
@@ -752,6 +788,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mysql",
   "name": "mysql.bit.lan",
   "platform": "linux",
@@ -785,6 +822,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mysqld-exporter",
   "name": "mysqld-exporter.bit.lan",
   "platform": "linux",
@@ -798,6 +836,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nats",
   "name": "nats.bit.lan",
   "platform": "linux",
@@ -811,6 +850,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nats-exporter",
   "name": "nats-exporter.bit.lan",
   "platform": "linux",
@@ -824,6 +864,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "neo4j",
   "name": "neo4j.bit.lan",
   "platform": "linux",
@@ -857,6 +898,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nginx",
   "name": "nginx.bit.lan",
   "platform": "linux",
@@ -870,6 +912,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nginx-exporter",
   "name": "nginx-exporter.bit.lan",
   "platform": "linux",
@@ -883,6 +926,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nginx-ingress-controller",
   "name": "nginx-ingress-controller.bit.lan",
   "platform": "linux",
@@ -896,6 +940,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "nginx",
   "name": "nginx.bit.lan",
   "platform": "linux",
@@ -909,6 +954,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "node",
   "name": "node.bit.lan",
   "platform": "linux",
@@ -942,6 +988,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "azure-cli",
   "name": "azure-cli.bit.lan",
   "platform": "linux",
@@ -954,6 +1001,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "node-exporter",
   "name": "node-exporter.bit.lan",
   "platform": "linux",
@@ -966,6 +1014,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "oauth2-proxy",
   "name": "oauth2-proxy.bit.lan",
   "platform": "linux",
@@ -979,6 +1028,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -1012,6 +1062,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1045,6 +1096,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "openldap",
   "name": "openldap.bit.lan",
   "platform": "linux",
@@ -1078,6 +1130,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "openresty",
   "name": "openresty.bit.lan",
   "platform": "linux",
@@ -1091,6 +1144,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "oras",
   "name": "oras.bit.lan",
   "platform": "linux",
@@ -1103,6 +1157,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1136,6 +1191,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1169,6 +1225,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb",
   "name": "mongodb.bit.lan",
   "platform": "linux",
@@ -1202,6 +1259,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "bitnami-shell",
   "name": "bitnami-shell.bit.lan",
   "platform": "linux",
@@ -1214,6 +1272,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb",
   "name": "mongodb.bit.lan",
   "platform": "linux",
@@ -1247,6 +1306,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "percona-mysql",
   "name": "percona-mysql.bit.lan",
   "platform": "linux",
@@ -1280,6 +1340,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "percona-xtrabackup",
   "name": "percona-xtrabackup.bit.lan",
   "platform": "linux",
@@ -1292,6 +1353,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -1324,6 +1386,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pg-0",
   "name": "pg-0.bit.lan",
   "platform": "linux",
@@ -1357,6 +1420,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1390,6 +1454,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "php",
   "name": "php.bit.lan",
   "platform": "linux",
@@ -1423,6 +1488,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1456,6 +1522,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pinniped",
   "name": "pinniped.bit.lan",
   "platform": "linux",
@@ -1468,6 +1535,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgres-exporter",
   "name": "postgres-exporter.bit.lan",
   "platform": "linux",
@@ -1480,6 +1548,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "blackbox-exporter",
   "name": "blackbox-exporter.bit.lan",
   "platform": "linux",
@@ -1492,6 +1561,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -1525,6 +1595,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pg-0",
   "name": "pg-0.bit.lan",
   "platform": "linux",
@@ -1558,6 +1629,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1591,6 +1663,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "prometheus",
   "name": "prometheus.bit.lan",
   "platform": "linux",
@@ -1604,6 +1677,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "prometheus-operator",
   "name": "prometheus-operator.bit.lan",
   "platform": "linux",
@@ -1617,6 +1691,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "prometheus-rsocket-proxy",
   "name": "prometheus-rsocket-proxy.bit.lan",
   "platform": "linux",
@@ -1630,6 +1705,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "promtail",
   "name": "promtail.bit.lan",
   "platform": "linux",
@@ -1642,6 +1718,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pushgateway",
   "name": "pushgateway.bit.lan",
   "platform": "linux",
@@ -1654,6 +1731,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "python",
   "name": "python.bit.lan",
   "platform": "linux",
@@ -1687,6 +1765,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pytorch",
   "name": "pytorch.bit.lan",
   "platform": "linux",
@@ -1719,6 +1798,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cainjector",
   "name": "cainjector.bit.lan",
   "platform": "linux",
@@ -1731,6 +1811,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "pytorch",
   "name": "pytorch.bit.lan",
   "platform": "linux",
@@ -1763,6 +1844,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "rabbitmq",
   "name": "rabbitmq.bit.lan",
   "platform": "linux",
@@ -1796,6 +1878,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "rabbitmq-cluster-operator",
   "name": "rabbitmq-cluster-operator.bit.lan",
   "platform": "linux",
@@ -1808,6 +1891,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1841,6 +1925,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "rclone",
   "name": "rclone.bit.lan",
   "platform": "linux",
@@ -1853,6 +1938,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "redis",
   "name": "redis.bit.lan",
   "platform": "linux",
@@ -1886,6 +1972,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "redis-node-0",
   "name": "redis-node-0.bit.lan",
   "platform": "linux",
@@ -1918,6 +2005,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "redis-exporter",
   "name": "redis-exporter.bit.lan",
   "platform": "linux",
@@ -1930,6 +2018,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "redis-sentinel",
   "name": "redis-sentinel.bit.lan",
   "platform": "linux",
@@ -1962,6 +2051,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -1995,6 +2085,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cassandra",
   "name": "cassandra.bit.lan",
   "platform": "linux",
@@ -2028,6 +2119,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2061,6 +2153,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "rmq-default-credential-updater",
   "name": "rmq-default-credential-updater.bit.lan",
   "platform": "linux",
@@ -2073,6 +2166,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "rmq-messaging-topology-operator",
   "name": "rmq-messaging-topology-operator.bit.lan",
   "platform": "linux",
@@ -2085,6 +2179,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "ruby",
   "name": "ruby.bit.lan",
   "platform": "linux",
@@ -2118,6 +2213,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "zookeeper",
   "name": "zookeeper.bit.lan",
   "platform": "linux",
@@ -2151,6 +2247,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "scikit",
   "name": "scikit.bit.lan",
   "platform": "linux",
@@ -2183,6 +2280,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "myapp",
   "name": "myapp.bit.lan",
   "platform": "linux",
@@ -2195,6 +2293,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "solr",
   "name": "solr.bit.lan",
   "platform": "linux",
@@ -2228,6 +2327,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -2261,6 +2361,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spark",
   "name": "spark.bit.lan",
   "platform": "linux",
@@ -2274,6 +2375,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cassandra-exporter",
   "name": "cassandra-exporter.bit.lan",
   "platform": "linux",
@@ -2287,6 +2389,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spring-cloud-dataflow",
   "name": "spring-cloud-dataflow.bit.lan",
   "platform": "linux",
@@ -2320,6 +2423,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spring-cloud-dataflow-composed-task-runner",
   "name": "spring-cloud-dataflow-composed-task-runner.bit.lan",
   "platform": "linux",
@@ -2332,6 +2436,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spring-cloud-dataflow-shell",
   "name": "spring-cloud-dataflow-shell.bit.lan",
   "platform": "linux",
@@ -2344,6 +2449,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spring-cloud-skipper",
   "name": "spring-cloud-skipper.bit.lan",
   "platform": "linux",
@@ -2377,6 +2483,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "spring-cloud-skipper-shell",
   "name": "spring-cloud-skipper-shell.bit.lan",
   "platform": "linux",
@@ -2389,6 +2496,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2422,6 +2530,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2455,6 +2564,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "telegraf",
   "name": "telegraf.bit.lan",
   "platform": "linux",
@@ -2467,6 +2577,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "tensorflow",
   "name": "tensorflow.bit.lan",
   "platform": "linux",
@@ -2499,6 +2610,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "tensorflow-serving",
   "name": "tensorflow-serving.bit.lan",
   "platform": "linux",
@@ -2532,6 +2644,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "airflow-exporter",
   "name": "airflow-exporter.bit.lan",
   "platform": "linux",
@@ -2545,6 +2658,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cert-manager",
   "name": "cert-manager.bit.lan",
   "platform": "linux",
@@ -2557,6 +2671,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "tensorflow-serving",
   "name": "tensorflow-serving.bit.lan",
   "platform": "linux",
@@ -2590,6 +2705,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "thanos",
   "name": "thanos.bit.lan",
   "platform": "linux",
@@ -2603,6 +2719,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "tomcat",
   "name": "tomcat.bit.lan",
   "platform": "linux",
@@ -2636,6 +2753,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "trivy",
   "name": "trivy.bit.lan",
   "platform": "linux",
@@ -2648,6 +2766,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "wavefront-hpa-adapter",
   "name": "wavefront-hpa-adapter.bit.lan",
   "platform": "linux",
@@ -2660,6 +2779,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "wavefront",
   "name": "wavefront.bit.lan",
   "platform": "linux",
@@ -2672,6 +2792,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "wavefront-prometheus-storage-adapter",
   "name": "wavefront-prometheus-storage-adapter.bit.lan",
   "platform": "linux",
@@ -2684,6 +2805,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "wavefront-proxy",
   "name": "wavefront-proxy.bit.lan",
   "platform": "linux",
@@ -2696,6 +2818,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "wildfly",
   "name": "wildfly.bit.lan",
   "platform": "linux",
@@ -2729,6 +2852,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2762,6 +2886,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cert-manager-webhook",
   "name": "cert-manager-webhook.bit.lan",
   "platform": "linux",
@@ -2774,6 +2899,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2807,6 +2933,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -2840,6 +2967,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "xgboost",
   "name": "xgboost.bit.lan",
   "platform": "linux",
@@ -2872,6 +3000,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "zookeeper",
   "name": "zookeeper.bit.lan",
   "platform": "linux",
@@ -2905,6 +3034,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "chartmuseum",
   "name": "chartmuseum.bit.lan",
   "platform": "linux",
@@ -2938,6 +3068,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "clickhouse",
   "name": "clickhouse.bit.lan",
   "platform": "linux",
@@ -2971,6 +3102,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cluster-autoscaler",
   "name": "cluster-autoscaler.bit.lan",
   "platform": "linux",
@@ -3003,6 +3135,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -3036,6 +3169,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -3068,6 +3202,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "configmap-reload",
   "name": "configmap-reload.bit.lan",
   "platform": "linux",
@@ -3081,6 +3216,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "configurable-http-proxy",
   "name": "configurable-http-proxy.bit.lan",
   "platform": "linux",
@@ -3094,6 +3230,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "consul",
   "name": "consul.bit.lan",
   "platform": "linux",
@@ -3127,6 +3264,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "airflow-scheduler",
   "name": "airflow-scheduler.bit.lan",
   "platform": "linux",
@@ -3159,6 +3297,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "consul-exporter",
   "name": "consul-exporter.bit.lan",
   "platform": "linux",
@@ -3172,6 +3311,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "contour",
   "name": "contour.bit.lan",
   "platform": "linux",
@@ -3204,6 +3344,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "contour-operator",
   "name": "contour-operator.bit.lan",
   "platform": "linux",
@@ -3216,6 +3357,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "cosign",
   "name": "cosign.bit.lan",
   "platform": "linux",
@@ -3228,6 +3370,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "couchdb",
   "name": "couchdb.bit.lan",
   "platform": "linux",
@@ -3261,6 +3404,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "dex",
   "name": "dex.bit.lan",
   "platform": "linux",
@@ -3273,6 +3417,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -3306,6 +3451,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "dokuwiki",
   "name": "dokuwiki.bit.lan",
   "platform": "linux",
@@ -3339,6 +3485,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "dotnet",
   "name": "dotnet.bit.lan",
   "platform": "linux",
@@ -3371,6 +3518,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "dotnet-sdk",
   "name": "dotnet-sdk.bit.lan",
   "platform": "linux",
@@ -3403,6 +3551,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "airflow-worker",
   "name": "airflow-worker.bit.lan",
   "platform": "linux",
@@ -3435,6 +3584,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -3468,6 +3618,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -3501,6 +3652,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -3534,6 +3686,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -3567,6 +3720,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "elasticsearch",
   "name": "elasticsearch.bit.lan",
   "platform": "linux",
@@ -3600,6 +3754,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "elasticsearch-exporter",
   "name": "elasticsearch-exporter.bit.lan",
   "platform": "linux",
@@ -3613,6 +3768,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "envoy",
   "name": "envoy.bit.lan",
   "platform": "linux",
@@ -3625,6 +3781,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "envoy",
   "name": "envoy.bit.lan",
   "platform": "linux",
@@ -3637,6 +3794,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "etcd",
   "name": "etcd.bit.lan",
   "platform": "linux",
@@ -3669,6 +3827,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mongodb",
   "name": "mongodb.bit.lan",
   "platform": "linux",
@@ -3702,6 +3861,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "alertmanager",
   "name": "alertmanager.bit.lan",
   "platform": "linux",
@@ -3715,6 +3875,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "external-dns",
   "name": "external-dns.bit.lan",
   "platform": "linux",
@@ -3728,6 +3889,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "fluent-bit",
   "name": "fluent-bit.bit.lan",
   "platform": "linux",
@@ -3741,6 +3903,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "fluentd",
   "name": "fluentd.bit.lan",
   "platform": "linux",
@@ -3774,6 +3937,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "geode",
   "name": "geode.bit.lan",
   "platform": "linux",
@@ -3807,6 +3971,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mysql",
   "name": "mysql.bit.lan",
   "platform": "linux",
@@ -3840,6 +4005,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "git",
   "name": "git.bit.lan",
   "platform": "linux",
@@ -3852,6 +4018,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "gitlab-runner",
   "name": "gitlab-runner.bit.lan",
   "platform": "linux",
@@ -3864,6 +4031,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "gitlab-runner-helper",
   "name": "gitlab-runner-helper.bit.lan",
   "platform": "linux",
@@ -3876,6 +4044,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "golang",
   "name": "golang.bit.lan",
   "platform": "linux",
@@ -3888,6 +4057,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "google-cloud-sdk",
   "name": "google-cloud-sdk.bit.lan",
   "platform": "linux",
@@ -3900,6 +4070,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "apache",
   "name": "apache.bit.lan",
   "platform": "linux",
@@ -3913,6 +4084,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "gradle",
   "name": "gradle.bit.lan",
   "platform": "linux",
@@ -3945,6 +4117,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana",
   "name": "grafana.bit.lan",
   "platform": "linux",
@@ -3978,6 +4151,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-image-renderer",
   "name": "grafana-image-renderer.bit.lan",
   "platform": "linux",
@@ -3991,6 +4165,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-loki",
   "name": "grafana-loki.bit.lan",
   "platform": "linux",
@@ -4003,6 +4178,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-operator",
   "name": "grafana-operator.bit.lan",
   "platform": "linux",
@@ -4016,6 +4192,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-tempo",
   "name": "grafana-tempo.bit.lan",
   "platform": "linux",
@@ -4028,6 +4205,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-tempo-query",
   "name": "grafana-tempo-query.bit.lan",
   "platform": "linux",
@@ -4040,6 +4218,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "grafana-tempo-vulture",
   "name": "grafana-tempo-vulture.bit.lan",
   "platform": "linux",
@@ -4052,6 +4231,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "redis",
   "name": "redis.bit.lan",
   "platform": "linux",
@@ -4065,6 +4245,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "haproxy",
   "name": "haproxy.bit.lan",
   "platform": "linux",
@@ -4077,6 +4258,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "apache-exporter",
   "name": "apache-exporter.bit.lan",
   "platform": "linux",
@@ -4090,6 +4272,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "haproxy",
   "name": "haproxy.bit.lan",
   "platform": "linux",
@@ -4102,6 +4285,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "harbor-adapter-trivy",
   "name": "harbor-adapter-trivy.bit.lan",
   "platform": "linux",
@@ -4135,6 +4319,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "harbor-core",
   "name": "harbor-core.bit.lan",
   "platform": "linux",
@@ -4168,6 +4353,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "registry",
   "name": "registry.bit.lan",
   "platform": "linux",
@@ -4200,6 +4386,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "harbor-jobservice",
   "name": "harbor-jobservice.bit.lan",
   "platform": "linux",
@@ -4233,6 +4420,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -4266,6 +4454,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -4299,6 +4488,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "registry",
   "name": "registry.bit.lan",
   "platform": "linux",
@@ -4332,6 +4522,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "harbor-registry",
   "name": "harbor-registry.bit.lan",
   "platform": "linux",
@@ -4365,6 +4556,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "harbor-registryctl",
   "name": "harbor-registryctl.bit.lan",
   "platform": "linux",
@@ -4398,6 +4590,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "argo-cd",
   "name": "argo-cd.bit.lan",
   "platform": "linux",
@@ -4410,6 +4603,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "inc",
   "name": "inc.bit.lan",
   "platform": "linux",
@@ -4442,6 +4636,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "influxdb",
   "name": "influxdb.bit.lan",
   "platform": "linux",
@@ -4475,6 +4670,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -4508,6 +4704,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "java",
   "name": "java.bit.lan",
   "platform": "linux",
@@ -4541,6 +4738,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jenkins",
   "name": "jenkins.bit.lan",
   "platform": "linux",
@@ -4574,6 +4772,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jmx-exporter",
   "name": "jmx-exporter.bit.lan",
   "platform": "linux",
@@ -4587,6 +4786,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "mariadb",
   "name": "mariadb.bit.lan",
   "platform": "linux",
@@ -4620,6 +4820,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jruby",
   "name": "jruby.bit.lan",
   "platform": "linux",
@@ -4653,6 +4854,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jsonnet",
   "name": "jsonnet.bit.lan",
   "platform": "linux",
@@ -4685,6 +4887,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jupyter-base-notebook",
   "name": "jupyter-base-notebook.bit.lan",
   "platform": "linux",
@@ -4698,6 +4901,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "argo-workflows",
   "name": "argo-workflows.bit.lan",
   "platform": "linux",
@@ -4710,6 +4914,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "jupyterhub",
   "name": "jupyterhub.bit.lan",
   "platform": "linux",
@@ -4723,6 +4928,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "zookeeper",
   "name": "zookeeper.bit.lan",
   "platform": "linux",
@@ -4756,6 +4962,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kafka-exporter",
   "name": "kafka-exporter.bit.lan",
   "platform": "linux",
@@ -4769,6 +4976,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kapacitor",
   "name": "kapacitor.bit.lan",
   "platform": "linux",
@@ -4801,6 +5009,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -4834,6 +5043,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "keycloak-config-cli",
   "name": "keycloak-config-cli.bit.lan",
   "platform": "linux",
@@ -4846,6 +5056,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kiam",
   "name": "kiam.bit.lan",
   "platform": "linux",
@@ -4858,6 +5069,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "elasticsearch",
   "name": "elasticsearch.bit.lan",
   "platform": "linux",
@@ -4891,6 +5103,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "postgresql",
   "name": "postgresql.bit.lan",
   "platform": "linux",
@@ -4924,6 +5137,7 @@
         ]
        },
        {
+          "type": 1,
           "title" : "kong-ingress-controller",
   "name": "kong-ingress-controller.bit.lan",
   "platform": "linux",
