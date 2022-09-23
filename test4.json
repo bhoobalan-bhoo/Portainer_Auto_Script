@@ -25,7 +25,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1025/tcp"],
-            airflow.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -72,7 +73,8 @@
             "hostname": "airflow-scheduler",
             "restart_policy": "always",
             "ports": ["1027/tcp"],
-            airflow - scheduler.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/airflow-scheduler/data",
                     "bind": "/srv/airflow-scheduler.bit.lan/docker/data",
                     "readonly": false
@@ -104,7 +106,8 @@
             "hostname": "airflow-worker",
             "restart_policy": "always",
             "ports": ["1028/tcp"],
-            airflow - worker.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/airflow-worker/data",
                     "bind": "/srv/airflow-worker.bit.lan/docker/data",
                     "readonly": false
@@ -241,7 +244,8 @@
             "hostname": "aspnet-core",
             "restart_policy": "always",
             "ports": ["1036/tcp"],
-            aspnet - core.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/aspnet-core/data",
                     "bind": "/srv/aspnet-core.bit.lan/docker/data",
                     "readonly": false
@@ -348,7 +352,8 @@
             "hostname": "cassandra",
             "restart_policy": "always",
             "ports": ["1042/tcp"],
-            cassandra.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/cassandra/data",
                     "bind": "/srv/cassandra.bit.lan/docker/data",
                     "readonly": false
@@ -425,7 +430,8 @@
             "hostname": "chartmuseum",
             "restart_policy": "always",
             "ports": ["1046/tcp"],
-            chartmuseum.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/chartmuseum/data",
                     "bind": "/srv/chartmuseum.bit.lan/docker/data",
                     "readonly": false
@@ -457,7 +463,8 @@
             "hostname": "clickhouse",
             "restart_policy": "always",
             "ports": ["1047/tcp"],
-            clickhouse.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/clickhouse/data",
                     "bind": "/srv/clickhouse.bit.lan/docker/data",
                     "readonly": false
@@ -489,7 +496,8 @@
             "hostname": "cluster-autoscaler",
             "restart_policy": "always",
             "ports": ["1048/tcp"],
-            cluster - autoscaler.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/cluster-autoscaler/data",
                     "bind": "/srv/cluster-autoscaler.bit.lan/docker/data",
                     "readonly": false
@@ -521,7 +529,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1049/tcp"],
-            codeigniter.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -553,7 +562,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1050/tcp"],
-            concourse.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -615,7 +625,8 @@
             "hostname": "consul",
             "restart_policy": "always",
             "ports": ["1053/tcp"],
-            consul.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/consul/data",
                     "bind": "/srv/consul.bit.lan/docker/data",
                     "readonly": false
@@ -662,7 +673,8 @@
             "hostname": "contour",
             "restart_policy": "always",
             "ports": ["1055/tcp"],
-            contour.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/contour/data",
                     "bind": "/srv/contour.bit.lan/docker/data",
                     "readonly": false
@@ -724,7 +736,8 @@
             "hostname": "couchdb",
             "restart_policy": "always",
             "ports": ["1058/tcp"],
-            couchdb.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/couchdb/data",
                     "bind": "/srv/couchdb.bit.lan/docker/data",
                     "readonly": false
@@ -771,7 +784,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1060/tcp"],
-            discourse.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -803,7 +817,8 @@
             "hostname": "dokuwiki",
             "restart_policy": "always",
             "ports": ["1061/tcp"],
-            dokuwiki.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/dokuwiki/data",
                     "bind": "/srv/dokuwiki.bit.lan/docker/data",
                     "readonly": false
@@ -835,7 +850,8 @@
             "hostname": "dotnet",
             "restart_policy": "always",
             "ports": ["1062/tcp"],
-            dotnet.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/dotnet/data",
                     "bind": "/srv/dotnet.bit.lan/docker/data",
                     "readonly": false
@@ -867,7 +883,8 @@
             "hostname": "dotnet-sdk",
             "restart_policy": "always",
             "ports": ["1063/tcp"],
-            dotnet - sdk.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/dotnet-sdk/data",
                     "bind": "/srv/dotnet-sdk.bit.lan/docker/data",
                     "readonly": false
@@ -899,7 +916,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1064/tcp"],
-            dreamfactory.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -931,7 +949,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1065/tcp"],
-            drupal.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -963,7 +982,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1066/tcp"],
-            drupal - nginx.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -995,7 +1015,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1067/tcp"],
-            ejbca.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -1027,7 +1048,8 @@
             "hostname": "elasticsearch",
             "restart_policy": "always",
             "ports": ["1068/tcp"],
-            elasticsearch.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/elasticsearch/data",
                     "bind": "/srv/elasticsearch.bit.lan/docker/data",
                     "readonly": false
@@ -1104,7 +1126,8 @@
             "hostname": "etcd",
             "restart_policy": "always",
             "ports": ["1072/tcp"],
-            etcd.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/etcd/data",
                     "bind": "/srv/etcd.bit.lan/docker/data",
                     "readonly": false
@@ -1136,7 +1159,8 @@
             "hostname": "mongodb",
             "restart_policy": "always",
             "ports": ["1073/tcp"],
-            express.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mongodb/data",
                     "bind": "/srv/mongodb.bit.lan/docker/data",
                     "readonly": false
@@ -1198,7 +1222,8 @@
             "hostname": "fluentd",
             "restart_policy": "always",
             "ports": ["1076/tcp"],
-            fluentd.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/fluentd/data",
                     "bind": "/srv/fluentd.bit.lan/docker/data",
                     "readonly": false
@@ -1230,7 +1255,8 @@
             "hostname": "geode",
             "restart_policy": "always",
             "ports": ["1077/tcp"],
-            geode.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/geode/data",
                     "bind": "/srv/geode.bit.lan/docker/data",
                     "readonly": false
@@ -1262,7 +1288,8 @@
             "hostname": "mysql",
             "restart_policy": "always",
             "ports": ["1078/tcp"],
-            ghost.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mysql/data",
                     "bind": "/srv/mysql.bit.lan/docker/data",
                     "readonly": false
@@ -1369,7 +1396,8 @@
             "hostname": "gradle",
             "restart_policy": "always",
             "ports": ["1084/tcp"],
-            gradle.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/gradle/data",
                     "bind": "/srv/gradle.bit.lan/docker/data",
                     "readonly": false
@@ -1401,7 +1429,8 @@
             "hostname": "grafana",
             "restart_policy": "always",
             "ports": ["1085/tcp"],
-            grafana.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/grafana/data",
                     "bind": "/srv/grafana.bit.lan/docker/data",
                     "readonly": false
@@ -1568,7 +1597,8 @@
             "hostname": "harbor-adapter-trivy",
             "restart_policy": "always",
             "ports": ["1095/tcp"],
-            harbor - adapter - trivy.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/harbor-adapter-trivy/data",
                     "bind": "/srv/harbor-adapter-trivy.bit.lan/docker/data",
                     "readonly": false
@@ -1600,7 +1630,8 @@
             "hostname": "harbor-core",
             "restart_policy": "always",
             "ports": ["1096/tcp"],
-            harbor - core.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/harbor-core/data",
                     "bind": "/srv/harbor-core.bit.lan/docker/data",
                     "readonly": false
@@ -1632,7 +1663,8 @@
             "hostname": "registry",
             "restart_policy": "always",
             "ports": ["1097/tcp"],
-            harbor - exporter.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/registry/data",
                     "bind": "/srv/registry.bit.lan/docker/data",
                     "readonly": false
@@ -1664,7 +1696,8 @@
             "hostname": "harbor-jobservice",
             "restart_policy": "always",
             "ports": ["1098/tcp"],
-            harbor - jobservice.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/harbor-jobservice/data",
                     "bind": "/srv/harbor-jobservice.bit.lan/docker/data",
                     "readonly": false
@@ -1696,7 +1729,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1099/tcp"],
-            harbor - notary - server.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -1728,7 +1762,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1100/tcp"],
-            harbor - notary - signer.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -1760,7 +1795,8 @@
             "hostname": "registry",
             "restart_policy": "always",
             "ports": ["1101/tcp"],
-            harbor - portal.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/registry/data",
                     "bind": "/srv/registry.bit.lan/docker/data",
                     "readonly": false
@@ -1792,7 +1828,8 @@
             "hostname": "harbor-registry",
             "restart_policy": "always",
             "ports": ["1102/tcp"],
-            harbor - registry.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/harbor-registry/data",
                     "bind": "/srv/harbor-registry.bit.lan/docker/data",
                     "readonly": false
@@ -1824,7 +1861,8 @@
             "hostname": "harbor-registryctl",
             "restart_policy": "always",
             "ports": ["1103/tcp"],
-            harbor - registryctl.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/harbor-registryctl/data",
                     "bind": "/srv/harbor-registryctl.bit.lan/docker/data",
                     "readonly": false
@@ -1856,7 +1894,8 @@
             "hostname": "inc",
             "restart_policy": "always",
             "ports": ["1104/tcp"],
-            inc - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/inc/data",
                     "bind": "/srv/inc.bit.lan/docker/data",
                     "readonly": false
@@ -1888,7 +1927,8 @@
             "hostname": "influxdb",
             "restart_policy": "always",
             "ports": ["1105/tcp"],
-            influxdb.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/influxdb/data",
                     "bind": "/srv/influxdb.bit.lan/docker/data",
                     "readonly": false
@@ -1920,7 +1960,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1106/tcp"],
-            jasperreports.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -1952,7 +1993,8 @@
             "hostname": "java",
             "restart_policy": "always",
             "ports": ["1107/tcp"],
-            java.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/java/data",
                     "bind": "/srv/java.bit.lan/docker/data",
                     "readonly": false
@@ -1984,7 +2026,8 @@
             "hostname": "jenkins",
             "restart_policy": "always",
             "ports": ["1108/tcp"],
-            jenkins.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/jenkins/data",
                     "bind": "/srv/jenkins.bit.lan/docker/data",
                     "readonly": false
@@ -2031,7 +2074,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1110/tcp"],
-            joomla.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2063,7 +2107,8 @@
             "hostname": "jruby",
             "restart_policy": "always",
             "ports": ["1111/tcp"],
-            jruby.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/jruby/data",
                     "bind": "/srv/jruby.bit.lan/docker/data",
                     "readonly": false
@@ -2095,7 +2140,8 @@
             "hostname": "jsonnet",
             "restart_policy": "always",
             "ports": ["1112/tcp"],
-            jsonnet.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/jsonnet/data",
                     "bind": "/srv/jsonnet.bit.lan/docker/data",
                     "readonly": false
@@ -2157,7 +2203,8 @@
             "hostname": "zookeeper",
             "restart_policy": "always",
             "ports": ["1115/tcp"],
-            kafka.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/zookeeper/data",
                     "bind": "/srv/zookeeper.bit.lan/docker/data",
                     "readonly": false
@@ -2204,7 +2251,8 @@
             "hostname": "kapacitor",
             "restart_policy": "always",
             "ports": ["1117/tcp"],
-            kapacitor.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/kapacitor/data",
                     "bind": "/srv/kapacitor.bit.lan/docker/data",
                     "readonly": false
@@ -2236,7 +2284,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1118/tcp"],
-            keycloak.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -2298,7 +2347,8 @@
             "hostname": "elasticsearch",
             "restart_policy": "always",
             "ports": ["1121/tcp"],
-            kibana.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/elasticsearch/data",
                     "bind": "/srv/elasticsearch.bit.lan/docker/data",
                     "readonly": false
@@ -2330,7 +2380,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1122/tcp"],
-            kong.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -2377,7 +2428,8 @@
             "hostname": "zookeeper",
             "restart_policy": "always",
             "ports": ["1124/tcp"],
-            ksql.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/zookeeper/data",
                     "bind": "/srv/zookeeper.bit.lan/docker/data",
                     "readonly": false
@@ -2559,7 +2611,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1135/tcp"],
-            laravel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2591,7 +2644,8 @@
             "hostname": "logstash",
             "restart_policy": "always",
             "ports": ["1136/tcp"],
-            logstash.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/logstash/data",
                     "bind": "/srv/logstash.bit.lan/docker/data",
                     "readonly": false
@@ -2623,7 +2677,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1137/tcp"],
-            magento.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2655,7 +2710,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1138/tcp"],
-            mariadb.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2687,7 +2743,8 @@
             "hostname": "mariadb-galera",
             "restart_policy": "always",
             "ports": ["1139/tcp"],
-            mariadb - galera.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb-galera/data",
                     "bind": "/srv/mariadb-galera.bit.lan/docker/data",
                     "readonly": false
@@ -2719,7 +2776,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1140/tcp"],
-            matomo.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2751,7 +2809,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1141/tcp"],
-            mediawiki.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -2858,7 +2917,8 @@
             "hostname": "minio",
             "restart_policy": "always",
             "ports": ["1147/tcp"],
-            minio.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/minio/data",
                     "bind": "/srv/minio.bit.lan/docker/data",
                     "readonly": false
@@ -2905,7 +2965,8 @@
             "hostname": "mongodb",
             "restart_policy": "always",
             "ports": ["1149/tcp"],
-            mongodb.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mongodb/data",
                     "bind": "/srv/mongodb.bit.lan/docker/data",
                     "readonly": false
@@ -2952,7 +3013,8 @@
             "hostname": "mongodb-sharded",
             "restart_policy": "always",
             "ports": ["1151/tcp"],
-            mongodb - sharded.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mongodb-sharded/data",
                     "bind": "/srv/mongodb-sharded.bit.lan/docker/data",
                     "readonly": false
@@ -2984,7 +3046,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1152/tcp"],
-            moodle.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3016,7 +3079,8 @@
             "hostname": "mxnet",
             "restart_policy": "always",
             "ports": ["1153/tcp"],
-            mxnet.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mxnet/data",
                     "bind": "/srv/mxnet.bit.lan/docker/data",
                     "readonly": false
@@ -3048,7 +3112,8 @@
             "hostname": "mysql",
             "restart_policy": "always",
             "ports": ["1154/tcp"],
-            mysql.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mysql/data",
                     "bind": "/srv/mysql.bit.lan/docker/data",
                     "readonly": false
@@ -3125,7 +3190,8 @@
             "hostname": "neo4j",
             "restart_policy": "always",
             "ports": ["1158/tcp"],
-            neo4j.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/neo4j/data",
                     "bind": "/srv/neo4j.bit.lan/docker/data",
                     "readonly": false
@@ -3217,7 +3283,8 @@
             "hostname": "node",
             "restart_policy": "always",
             "ports": ["1163/tcp"],
-            node.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/node/data",
                     "bind": "/srv/node.bit.lan/docker/data",
                     "readonly": false
@@ -3279,7 +3346,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1166/tcp"],
-            odoo.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -3311,7 +3379,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1167/tcp"],
-            opencart.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3343,7 +3412,8 @@
             "hostname": "openldap",
             "restart_policy": "always",
             "ports": ["1168/tcp"],
-            openldap.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/openldap/data",
                     "bind": "/srv/openldap.bit.lan/docker/data",
                     "readonly": false
@@ -3405,7 +3475,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1171/tcp"],
-            osclass.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3437,7 +3508,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1172/tcp"],
-            owncloud.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3469,7 +3541,8 @@
             "hostname": "mongodb",
             "restart_policy": "always",
             "ports": ["1173/tcp"],
-            parse.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mongodb/data",
                     "bind": "/srv/mongodb.bit.lan/docker/data",
                     "readonly": false
@@ -3501,7 +3574,8 @@
             "hostname": "mongodb",
             "restart_policy": "always",
             "ports": ["1174/tcp"],
-            parse - dashboard.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mongodb/data",
                     "bind": "/srv/mongodb.bit.lan/docker/data",
                     "readonly": false
@@ -3533,7 +3607,8 @@
             "hostname": "percona-mysql",
             "restart_policy": "always",
             "ports": ["1175/tcp"],
-            percona - mysql.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/percona-mysql/data",
                     "bind": "/srv/percona-mysql.bit.lan/docker/data",
                     "readonly": false
@@ -3580,7 +3655,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1177/tcp"],
-            pgbouncer.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -3612,7 +3688,8 @@
             "hostname": "pg-0",
             "restart_policy": "always",
             "ports": ["1178/tcp"],
-            pgpool.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/pg-0/data",
                     "bind": "/srv/pg-0.bit.lan/docker/data",
                     "readonly": false
@@ -3644,7 +3721,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1179/tcp"],
-            phpbb.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3676,7 +3754,8 @@
             "hostname": "php",
             "restart_policy": "always",
             "ports": ["1180/tcp"],
-            php - fpm.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/php/data",
                     "bind": "/srv/php.bit.lan/docker/data",
                     "readonly": false
@@ -3708,7 +3787,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1181/tcp"],
-            phpmyadmin.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3770,7 +3850,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1184/tcp"],
-            postgresql.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -3802,7 +3883,8 @@
             "hostname": "pg-0",
             "restart_policy": "always",
             "ports": ["1185/tcp"],
-            postgresql - repmgr.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/pg-0/data",
                     "bind": "/srv/pg-0.bit.lan/docker/data",
                     "readonly": false
@@ -3834,7 +3916,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1186/tcp"],
-            prestashop.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -3941,7 +4024,8 @@
             "hostname": "python",
             "restart_policy": "always",
             "ports": ["1192/tcp"],
-            python.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/python/data",
                     "bind": "/srv/python.bit.lan/docker/data",
                     "readonly": false
@@ -3973,7 +4057,8 @@
             "hostname": "pytorch",
             "restart_policy": "always",
             "ports": ["1193/tcp"],
-            pytorch.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/pytorch/data",
                     "bind": "/srv/pytorch.bit.lan/docker/data",
                     "readonly": false
@@ -4005,7 +4090,8 @@
             "hostname": "pytorch",
             "restart_policy": "always",
             "ports": ["1194/tcp"],
-            pytorch - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/pytorch/data",
                     "bind": "/srv/pytorch.bit.lan/docker/data",
                     "readonly": false
@@ -4037,7 +4123,8 @@
             "hostname": "rabbitmq",
             "restart_policy": "always",
             "ports": ["1195/tcp"],
-            rabbitmq.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/rabbitmq/data",
                     "bind": "/srv/rabbitmq.bit.lan/docker/data",
                     "readonly": false
@@ -4084,7 +4171,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1197/tcp"],
-            rails.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4131,7 +4219,8 @@
             "hostname": "redis",
             "restart_policy": "always",
             "ports": ["1199/tcp"],
-            redis.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/redis/data",
                     "bind": "/srv/redis.bit.lan/docker/data",
                     "readonly": false
@@ -4163,7 +4252,8 @@
             "hostname": "redis-node-0",
             "restart_policy": "always",
             "ports": ["1200/tcp"],
-            redis - cluster.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/redis-node-0/data",
                     "bind": "/srv/redis-node-0.bit.lan/docker/data",
                     "readonly": false
@@ -4210,7 +4300,8 @@
             "hostname": "redis-sentinel",
             "restart_policy": "always",
             "ports": ["1202/tcp"],
-            redis - sentinel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/redis-sentinel/data",
                     "bind": "/srv/redis-sentinel.bit.lan/docker/data",
                     "readonly": false
@@ -4242,7 +4333,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1203/tcp"],
-            redmine.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4274,7 +4366,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1204/tcp"],
-            reportserver.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4336,7 +4429,8 @@
             "hostname": "ruby",
             "restart_policy": "always",
             "ports": ["1207/tcp"],
-            ruby.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/ruby/data",
                     "bind": "/srv/ruby.bit.lan/docker/data",
                     "readonly": false
@@ -4368,7 +4462,8 @@
             "hostname": "zookeeper",
             "restart_policy": "always",
             "ports": ["1208/tcp"],
-            schema - registry.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/zookeeper/data",
                     "bind": "/srv/zookeeper.bit.lan/docker/data",
                     "readonly": false
@@ -4400,7 +4495,8 @@
             "hostname": "scikit",
             "restart_policy": "always",
             "ports": ["1209/tcp"],
-            scikit - learn - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/scikit/data",
                     "bind": "/srv/scikit.bit.lan/docker/data",
                     "readonly": false
@@ -4447,7 +4543,8 @@
             "hostname": "solr",
             "restart_policy": "always",
             "ports": ["1211/tcp"],
-            solr.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/solr/data",
                     "bind": "/srv/solr.bit.lan/docker/data",
                     "readonly": false
@@ -4479,7 +4576,8 @@
             "hostname": "postgresql",
             "restart_policy": "always",
             "ports": ["1212/tcp"],
-            sonarqube.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/postgresql/data",
                     "bind": "/srv/postgresql.bit.lan/docker/data",
                     "readonly": false
@@ -4526,7 +4624,8 @@
             "hostname": "spring-cloud-dataflow",
             "restart_policy": "always",
             "ports": ["1214/tcp"],
-            spring - cloud - dataflow.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/spring-cloud-dataflow/data",
                     "bind": "/srv/spring-cloud-dataflow.bit.lan/docker/data",
                     "readonly": false
@@ -4588,7 +4687,8 @@
             "hostname": "spring-cloud-skipper",
             "restart_policy": "always",
             "ports": ["1217/tcp"],
-            spring - cloud - skipper.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/spring-cloud-skipper/data",
                     "bind": "/srv/spring-cloud-skipper.bit.lan/docker/data",
                     "readonly": false
@@ -4635,7 +4735,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1219/tcp"],
-            suitecrm.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4667,7 +4768,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1220/tcp"],
-            symfony.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4714,7 +4816,8 @@
             "hostname": "tensorflow",
             "restart_policy": "always",
             "ports": ["1222/tcp"],
-            tensorflow - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/tensorflow/data",
                     "bind": "/srv/tensorflow.bit.lan/docker/data",
                     "readonly": false
@@ -4746,7 +4849,8 @@
             "hostname": "tensorflow-serving",
             "restart_policy": "always",
             "ports": ["1223/tcp"],
-            tensorflow - resnet.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/tensorflow-serving/data",
                     "bind": "/srv/tensorflow-serving.bit.lan/docker/data",
                     "readonly": false
@@ -4778,7 +4882,8 @@
             "hostname": "tensorflow-serving",
             "restart_policy": "always",
             "ports": ["1224/tcp"],
-            tensorflow - serving.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/tensorflow-serving/data",
                     "bind": "/srv/tensorflow-serving.bit.lan/docker/data",
                     "readonly": false
@@ -4825,7 +4930,8 @@
             "hostname": "tomcat",
             "restart_policy": "always",
             "ports": ["1226/tcp"],
-            tomcat.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/tomcat/data",
                     "bind": "/srv/tomcat.bit.lan/docker/data",
                     "readonly": false
@@ -4932,7 +5038,8 @@
             "hostname": "wildfly",
             "restart_policy": "always",
             "ports": ["1232/tcp"],
-            wildfly.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/wildfly/data",
                     "bind": "/srv/wildfly.bit.lan/docker/data",
                     "readonly": false
@@ -4964,7 +5071,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1233/tcp"],
-            wordpress.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -4996,7 +5104,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1234/tcp"],
-            wordpress - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -5028,7 +5137,8 @@
             "hostname": "mariadb",
             "restart_policy": "always",
             "ports": ["1235/tcp"],
-            wordpress - nginx.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/mariadb/data",
                     "bind": "/srv/mariadb.bit.lan/docker/data",
                     "readonly": false
@@ -5060,7 +5170,8 @@
             "hostname": "xgboost",
             "restart_policy": "always",
             "ports": ["1236/tcp"],
-            xgboost - intel.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/xgboost/data",
                     "bind": "/srv/xgboost.bit.lan/docker/data",
                     "readonly": false
@@ -5092,7 +5203,8 @@
             "hostname": "zookeeper",
             "restart_policy": "always",
             "ports": ["1237/tcp"],
-            zookeeper.yml "volumes": [{
+
+            "volumes": [{
                     "container": "/zookeeper/data",
                     "bind": "/srv/zookeeper.bit.lan/docker/data",
                     "readonly": false
@@ -5117,4 +5229,3 @@
 
         ]
     }
-
