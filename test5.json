@@ -2,19 +2,7 @@
 {
     "version": "2",
     "templates":  [
-      {
-      "type": 1,"title" : "acmesolver",
-  "name": "acmesolver.bit.lan",
-  "platform": "linux",
-  "administrator_only": false,
-  "image" : "docker.io/bitnami/acmesolver:1",
-  "hostname": "acmesolver",
-  "restart_policy": "always",
-  "ports": ["1024/tcp"],
-          "labels": [
-          { "name": "com.centurylinklabs.watchtower.enable", "value": "true" }
-        ]
-       },
+
        {
             "type": 1,"title" : "airflow",
   "name": "airflow.bit.lan",
