@@ -10,6 +10,7 @@
 			"platform": "linux",
 			"logo": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-eclipse-mosquitto-logo.png",
 			"image": "nodered/node-red",
+			"user": "0",
 			
 			"ports": [
 				"1880:1880/tcp"
