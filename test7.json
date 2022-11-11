@@ -10,42 +10,17 @@
 			"platform": "linux",
 			"logo": "https://d1q6f0aelx0por.cloudfront.net/product-logos/library-eclipse-mosquitto-logo.png",
 			"image": "nodered/node-red",
-			"env": [
-				{
-					"name": "PUID",
-					"label": "PUID",
-					"default": "1024",
-					"description": "for UserID"
-				},
-				{
-					"name": "PGID",
-					"label": "PGID",
-					"default": "100",
-					"description": "for GroupID"
-				},
-				{
-					"name": "TZ",
-					"label": "TZ",
-					"default": "Europe/Amsterdam",
-					"description": "Specify a timezone to use for example Europe/Amsterdam"
-				},
-				{
-					"name": "CONFIGFILE",
-					"label": "CONFIGFILE",
-					"default": "/config/node_red.yaml",
-					"description": "Set a custom config file."
-				}
-			],
+			
 			"ports": [
-				"1883:1883/tcp"
+				"1880:1880/tcp"
 			],
 			"volumes": [
 			{
-				"container": "/config",
-				"bind": "/volume1/docker/nodered/config"
+				"container": "/data",
+				"bind": "/srv/nodered/data"
 			}
 			],
-			"restart_policy": "unless-stopped"
+			"restart_policy": "always"
 		}
 
         
