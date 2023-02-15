@@ -6,7 +6,7 @@ Portainer is a powerful and user-friendly open source management tool for managi
 # Portainer Auto Script
 Portainer does not have a built-in feature to automatically convert YAML Docker files to JSON format and save them to a file. However, it is possible to write a script to perform this task using this program.
 
-![alt text](https://raw.githubusercontent.com/bhoobalan-bhoo/portainer/main/img/built.png?raw=true)
+![alt text](https://raw.githubusercontent.com/bhoobalan-bhoo/Portainer_Auto_Script/main/img/built.png?raw=true)
 # Docs
 
 Fetch the docker files into ``` yaml_files ``` folder. 
